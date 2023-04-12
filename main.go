@@ -21,19 +21,14 @@ namespace App\Models\{{.Namespace}};
 
 use App\Models\Base\BaseModel;
 
-class {{.Name}} extends BaseMode
+class {{.Name}} extends BaseModel
 {
     //
 }
 `
 
 	validatorTemplate = `<?php
-namespace App\Validators\{{.Namespace}};
-
-class {{.Name}}Validator
-{
-    //
-}
+return [];
 `
 
 	storeTemplate = `<?php
